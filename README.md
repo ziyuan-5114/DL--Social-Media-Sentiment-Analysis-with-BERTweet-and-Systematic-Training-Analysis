@@ -47,7 +47,8 @@ We performed systematic sweeps and selected the optimal configuration:
 | Epochs         | 10                      | (early stop on val macro-F1) |
 
 
-🔍 Error Analysis & Limitations
+## 🔍 Error Analysis & Limitations
+
 Dataset size: Only 4.7k samples → potential overfitting (validation plateau after 7-8 epochs)
 
 Neutral class ambiguity: Linguistic similarity with weak sentiment expressions
@@ -58,7 +59,8 @@ Complex phenomena: Sarcasm, irony, and emoji combinations not explicitly modeled
 
 Inference cost: BERTweet (135M) is heavy for CPU or real-time deployment
 
-🔮 Future Work
+## 🔮 Future Work
+
 Data augmentation (back-translation, synonym replacement)
 
 Fine-grained neutral modeling (sentiment intensity regression, multi-task learning)
